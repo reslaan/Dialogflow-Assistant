@@ -1,0 +1,34 @@
+[
+  {
+    "id": "430a93a5-8e8d-4a79-b3f0-75363176c393",
+    "data": [
+      {
+        "text": "how is the weather to day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30ed3fcd-3216-4a4b-9770-03f27190ef14",
+    "data": [
+      {
+        "text": "tell me about weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "damascus",
+        "meta": "@sys.geo-city",
+        "alias": "city_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

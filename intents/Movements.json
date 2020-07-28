@@ -1,0 +1,110 @@
+{
+  "id": "16b62452-f242-414d-bd9b-a8f0dcbf8456",
+  "name": "Movements",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "entry_data",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c7458338-82d2-4d8c-a8dd-8c1c61d7cb21",
+          "name": "right",
+          "required": false,
+          "dataType": "@apply_movements",
+          "value": "$right",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3813a599-6624-41f7-bcef-995405341039",
+          "name": "left",
+          "required": false,
+          "dataType": "@apply_movements",
+          "value": "$left",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "75ac3975-ce9f-4073-98f3-cd217bdea3ed",
+          "name": "backward",
+          "required": false,
+          "dataType": "@apply_movements",
+          "value": "$backward",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0d4ab847-cead-426a-bfbf-4d6464ef89b5",
+          "name": "forward",
+          "required": false,
+          "dataType": "@apply_movements",
+          "value": "$forward",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5e59de1a-572b-45c2-b255-52f3257ea2b2",
+          "name": "stop",
+          "required": false,
+          "dataType": "@apply_movements",
+          "value": "$stop",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "OK, i will go to $right",
+            "OK, i will go to $left",
+            "OK, i will  $stop",
+            "OK, i will move to $backward",
+            "OK, i will move to $forward"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

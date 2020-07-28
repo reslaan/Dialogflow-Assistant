@@ -1,0 +1,39 @@
+[
+  {
+    "value": "forward",
+    "synonyms": [
+      "forward",
+      "ahead"
+    ]
+  },
+  {
+    "value": "backward",
+    "synonyms": [
+      "backward",
+      "back",
+      "return"
+    ]
+  },
+  {
+    "value": "L",
+    "synonyms": [
+      "L",
+      "left"
+    ]
+  },
+  {
+    "value": "R",
+    "synonyms": [
+      "R",
+      "right"
+    ]
+  },
+  {
+    "value": "stop",
+    "synonyms": [
+      "stop",
+      "slow down",
+      "do not move"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "id": "5b7e59d6-373a-452f-bbd6-9e069198fc43",
+  "name": "Weather",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "95e7b4c8-da1a-4bd9-8ece-de42ee808b7b",
+          "name": "city_name",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "value": "$city_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter the name of city"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "the weather is sunny  today in $city_name",
+            "the weather is rainy today  in $city_name",
+            "the weather is foggy today  in $city_name",
+            "the weather is cloudy today  in $city_name"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
